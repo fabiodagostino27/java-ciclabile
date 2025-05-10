@@ -8,4 +8,6 @@ public class Ciclabile {
         this.array = array;
         this.index = 0;
     }
+
+    
 }
