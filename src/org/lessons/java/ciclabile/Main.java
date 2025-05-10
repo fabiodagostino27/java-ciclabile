@@ -12,5 +12,17 @@ public class Main {
         System.out.println(ciclabile1.hasAncoraElementi());
         System.out.println(ciclabile1.getElementoSuccessivo());
         System.out.println(ciclabile1.hasAncoraElementi());
+        ciclabile1.addElemento(8);
+        System.out.println(ciclabile1.hasAncoraElementi());
+
+        Ciclabile ciclabileVuoto = new Ciclabile();
+
+        ciclabileVuoto.addElemento(3);
+        System.out.println(ciclabileVuoto.getElementoSuccessivo());
+        ciclabileVuoto.addElemento(19);
+        System.out.println(ciclabileVuoto.getElementoSuccessivo());
+
+
+
     }
 }
