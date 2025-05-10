@@ -14,4 +14,8 @@ public class Ciclabile {
         this.index++;
         return this.array[i];
     }
+
+    public boolean hasAncoraElementi() {
+        return this.index < array.length;
+    }
 }
