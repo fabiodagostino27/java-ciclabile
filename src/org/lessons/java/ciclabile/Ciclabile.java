@@ -9,5 +9,9 @@ public class Ciclabile {
         this.index = 0;
     }
 
-    
+    public int getElementoSuccessivo() {
+        int i = index;
+        this.index++;
+        return this.array[i];
+    }
 }
